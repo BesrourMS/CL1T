@@ -1,0 +1,15 @@
+v-cloak {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+td img {
+  width: 45px;
+}
+.table>tbody>tr>td{
+	vertical-align: middle;
+}
