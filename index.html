@@ -23,7 +23,7 @@
       <table class="table table-hover table-responsive">
         <thead>
           <tr>
-            <td>N°</td>
+            <td class="hidden-xs">N°</td>
             <td>Équipe</td>
 	    <td class="hidden-xs"></td>
 	    <td>Pts</td>
@@ -39,17 +39,17 @@
         </thead>
         <tbody>
           <tr v-cloak v-for="game in games">
-            <td>{{ game.Position }}</td>
-            <td><img v-bind:src="game.Logo" class="img-responsive" /></td>
-			<td class="hidden-xs">{{ game.Equipe }}</td>
-			<td>{{ game.Points }}</td>
-			<td>{{ game.J }}</td>
-			<td>{{ game.G }}</td>
-			<td>{{ game.N }}</td>
-			<td>{{ game.D }}</td>
-			<td>{{ game.BE }}</td>
-			<td>{{ game.BM }}</td>
-			<td>{{ game.DB }}</td>
+            	<td class="hidden-xs">{{ game.Position }}</td>
+            	<td><img v-bind:src="game.Logo" class="img-responsive" /></td>
+		<td class="hidden-xs">{{ game.Equipe }}</td>
+		<td>{{ game.Points }}</td>
+		<td>{{ game.J }}</td>
+		<td>{{ game.G }}</td>
+		<td>{{ game.N }}</td>
+		<td>{{ game.D }}</td>
+		<td>{{ game.BE }}</td>
+		<td>{{ game.BM }}</td>
+	    	<td>{{ game.DB }}</td>
           </tr>
         </tbody>
       </table>
