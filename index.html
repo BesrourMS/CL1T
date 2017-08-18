@@ -41,7 +41,7 @@
         <tbody>
           <tr v-cloak v-for="game in games">
             	<td class="hidden-xs">{{ game.Position }}</td>
-            	<td><img v-bind:src="game.Logo" class="img-responsive" /></td>
+            	<td><img v-bind:src="game.Logo" v-bind:alt="game.Equipe"/></td>
 		<td class="hidden-xs">{{ game.Equipe }}</td>
 		<td>{{ game.Points }}</td>
 		<td>{{ game.J }}</td>
