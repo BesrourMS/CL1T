@@ -10,10 +10,13 @@ h1 {
 }
 
 td img {
-  width: 45px;
+  	width: 45px;
+	max-width: 100%;
+    	height: auto;
 }
 .table{
-	margin-bottom: 0px;	
+	margin-bottom: 0px;
+	text-align: center;
 }
 .table>tbody>tr>td{
 	vertical-align: middle;
