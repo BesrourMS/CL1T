@@ -6,13 +6,15 @@ body{
 }
 h1 {
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 td img {
   width: 45px;
 }
+.table{
+	margin-bootom: 0px;	
+}
 .table>tbody>tr>td{
 	vertical-align: middle;
-	text-align: center;
 }
