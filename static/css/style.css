@@ -27,3 +27,7 @@ td img {
     background-color: green;
     color: white;
 }
+.table>tbody>tr:last-child, .table>tbody>tr:nth-last-child(2)  { 
+    background-color: red;
+    color: white;
+}
