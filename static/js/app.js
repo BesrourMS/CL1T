@@ -15,8 +15,6 @@ let app = new Vue({
     games: []
   },
   methods: {
-
-    
     getGames: function() {
       let self = this;
 
@@ -30,11 +28,6 @@ let app = new Vue({
     },
 
   },
-
-  /**
-   * Using this lifecycle hook, we'll populate all of the cryptocurrency data as
-   * soon as the page is loaded a single time.
-   */
   created: function () {
     this.getGames();
   }
