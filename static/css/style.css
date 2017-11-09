@@ -24,10 +24,10 @@ td img {
 	vertical-align: middle;
 }
 .table>tbody>tr:first-child, .table>tbody>tr:nth-child(2)  { 
-    background-color: green;
+    background-color: #17C671;
     color: white;
 }
 .table>tbody>tr:last-child, .table>tbody>tr:nth-last-child(2)  { 
-    background-color: red;
+    background-color: #C4183C;
     color: white;
 }
