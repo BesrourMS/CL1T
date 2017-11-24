@@ -24,9 +24,9 @@
       <table class="table table-hover table-responsive">
         <thead>
           <tr>
-            <td class="hidden-xs">N°</td>
+            <td class="hidden-sm-down">N°</td>
             <td>Équipe</td>
-	    <td class="hidden-xs"></td>
+	    <td class="hidden-sm-down"></td>
 	    <td>Pts</td>
             <td>J</td>
             <td>G</td>
@@ -42,7 +42,7 @@
 	<!-- <tr v-cloak v-for="(game, index) in games" v-bind:class="{danger : index === (games.length-1)}">-->
             	<td class="hidden-sm-down">{{ game.Position }}</td>
             	<td><img v-bind:src="game.Logo" v-bind:alt="game.Equipe"/></td>
-		<td class="hidden-xs">{{ game.Equipe }}</td>
+		<td class="hidden-sm-down">{{ game.Equipe }}</td>
 		<td>{{ game.Points }}</td>
 		<td>{{ game.J }}</td>
 		<td>{{ game.G }}</td>
