@@ -7,7 +7,7 @@
     <title>Classement Championnat de Tunisie</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Work+Sans:300">
     <link rel="stylesheet" href="static/css/style.css">
 
@@ -20,13 +20,13 @@
   </head>
   <body>
     <h1>Classement Championnat de Tunisie</h1>
-    <div class="container-fluid" id="app">
+    <div class="container" id="app">
       <table class="table table-hover table-responsive">
         <thead>
           <tr>
-            <td class="hidden-sm-down">N°</td>
+            <td class="hidden-xs">N°</td>
             <td>Équipe</td>
-	    <td class="hidden-sm-down"></td>
+	    <td class="hidden-xs"></td>
 	    <td>Pts</td>
             <td>J</td>
             <td>G</td>
@@ -40,9 +40,9 @@
         <tbody>
          <tr v-cloak v-for="game in games">
 	<!-- <tr v-cloak v-for="(game, index) in games" v-bind:class="{danger : index === (games.length-1)}">-->
-            	<td class="hidden-sm-down">{{ game.Position }}</td>
+            	<td class="hidden-xs">{{ game.Position }}</td>
             	<td><img v-bind:src="game.Logo" v-bind:alt="game.Equipe"/></td>
-		<td class="hidden-sm-down">{{ game.Equipe }}</td>
+		<td class="hidden-xs">{{ game.Equipe }}</td>
 		<td>{{ game.Points }}</td>
 		<td>{{ game.J }}</td>
 		<td>{{ game.G }}</td>
