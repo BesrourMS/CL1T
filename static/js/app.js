@@ -4,7 +4,7 @@
  * This manages the entire front-end website.
  */
 
-let FOOT_API_URI = "http://map.tn/airport/foot.php";
+let FOOT_API_URI = "https://map.tn/airport/foot.php";
 
 // The amount of milliseconds (ms) after which we should update the table
 let UPDATE_INTERVAL = 60 * 1000;
